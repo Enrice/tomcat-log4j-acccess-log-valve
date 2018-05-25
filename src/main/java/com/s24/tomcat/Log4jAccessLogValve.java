@@ -11,6 +11,10 @@ import org.apache.catalina.valves.AbstractAccessLogValve;
  */
 public class Log4jAccessLogValve extends AbstractAccessLogValve {
 
+	public Log4jAccessLogValve() {
+		super();
+	}
+	
 	public Log4jAccessLogValve(String pattern) {
 		super();
 
